@@ -1,0 +1,614 @@
+/* GLOBAL */
+Html, body {
+      Padding: 0;
+      Margin: 0;
+      height: 100%;
+}
+
+#wrapper {
+	margin:0 auto;
+	width:100%;
+	Min-height: 100%;
+    height: auto !important;
+    position:relative;
+}
+
+.clear {
+        clear:both;
+}
+
+#container {
+	width:960px;min-height:100px;margin:0 auto;position:relative;padding-bottom:50px;
+}
+
+#container-home {
+	width:100%;min-height:100%;margin:0 auto;position:absolute;z-index:1;background:red;margin-top:-60px;
+}
+
+#slider {
+        width:100%;
+	min-height: 100%; 
+        position:absolute;
+        background:blue;
+	/*IE bugfix*/
+	padding:0;
+	margin:0;
+}
+
+#slider li { list-style:none;position:absolute;}
+
+#slider li img {
+	position:absolute;width:100%;height:1000px;
+}
+
+#header {
+	width:100%;height:142px;
+}
+
+#header-home {
+	width:100%;height:60px;background:#4e2b00;position:relative;z-index:2;
+}
+
+#header-space {
+	width:100%;height:82px;
+}
+
+#logo {
+	width:128px;height:142px;float:left;position:relative;z-index:101;
+}
+
+#home-navigation-container {
+	width:960px;height:59px;margin:0 auto;
+}
+
+#navigation-home {
+	width:832px;height:59px;float:right;
+}
+
+#navigation {
+	width:832px;height:59px;float:left;border-bottom:1px solid #cfcfcf;
+}
+
+#product-navigation {
+	width:832px;height:82px;float:left;
+}
+
+#header-home #navigation-home nav
+{
+        float:right;
+        margin-top:35px;
+        font-family: Gotham_Light;
+		font-size:9px;
+		color:#ffffff;	
+}
+
+#header-home #navigation-home nav ul
+{
+        list-style:none;
+}
+
+#header-home #navigation-home nav ul li
+{
+        display:block;
+        float:left;
+}
+
+#header-home #navigation-home nav ul li a
+{
+		text-decoration:none;
+        font-family: Gotham_Light;
+		font-size:9px;
+		color:#ffffff;	
+        text-transform:uppercase;
+        transition: all .25s ease;
+}
+
+#header-home #navigation-home nav ul li a:hover
+{
+		font-family: Gotham_Bold;
+        color:#E56038;
+}
+
+#header-home #navigation-home nav ul li .current
+{
+		font-family: Gotham_Bold;
+        color:#E56038;
+}
+
+#header-home #navigation-home nav ul li .section
+{
+		font-family: Gotham_Bold;
+        color:#E56038;
+}
+
+#header #navigation nav
+{
+        float:right;
+        margin-top:35px;
+        font-family: Gotham_Light;
+		font-size:9px;
+}
+
+#header #navigation nav ul
+{
+        list-style:none;
+}
+
+#header #navigation nav ul li
+{
+        display:block;
+        float:left;
+}
+
+#header #navigation nav ul li a
+{
+		text-decoration:none;
+        font-family: Gotham_Light;
+		font-size:9px;
+		color:#666666;	
+        text-transform:uppercase;
+        transition: all .25s ease;
+}
+
+#header #navigation nav ul li a:hover
+{
+		font-family: Gotham_Bold;
+        color:#E56038;
+}
+
+#header #navigation nav ul li .current
+{
+		font-family: Gotham_Bold;
+        color:#E56038;
+}
+
+#header #navigation nav ul li .section
+{
+		font-family: Gotham_Bold;
+        color:#E56038;
+}
+
+#header #product-navigation nav
+{
+        float:right;
+        font-family: Gotham_Light;
+		font-size:9px;
+}
+
+#header #product-navigation nav ul
+{
+        list-style:none;
+}
+
+#header #product-navigation nav ul li
+{
+        display:block;
+        float:left;
+        margin-left:10px;
+}
+
+#header #product-navigation nav ul li a
+{
+		text-decoration:none;
+        font-family: Gotham_Book;
+		font-size:18px;
+		color:#4e2b00;	
+        text-transform:uppercase;
+        transition: all .25s ease;
+}
+
+#header #product-navigation nav ul li a:hover
+{
+        color:#da6824;
+}
+
+#header #product-navigation nav ul li .current
+{
+		font-family: Gotham_Bold;
+        color:#da6824;
+}
+
+#header #product-navigation nav ul li .section
+{
+		font-family: Gotham_Bold;
+        color:#da6824;
+}
+
+#main {
+	width:100%;min-height:457px;
+}
+
+#left-column {
+	width:290px;min-height:100px;float:left;
+}
+
+#left-column2 {
+	width:265px;min-height:100px;float:left;
+}
+
+#right-column {
+	width:670px;height:595px;float:left;
+}
+
+#right-column2 {
+	width:695px;min-height:100px;float:left;padding-bottom:10px;
+}
+
+#right-column-promo {
+	width:670px;height:450px;float:left;
+}
+
+#mark-children {
+	width:40px;height:20px;font-family:Gotham_Bold;font-size:18px;color:#4e2b00;float:left;text-align:center;
+}
+
+#title {
+	width:245px;height:20px;font-family:Gotham_Bold;font-size:18px;color:#4e2b00;float:left;text-transform:uppercase;
+}
+
+#title2 {
+	width:225px;height:20px;font-family:Gotham_Bold;font-size:18px;color:#4e2b00;float:left;text-transform:uppercase;
+}
+
+#left-navigation {
+	width:245px;min-height:300px;float:left;margin-left:40px;
+}
+
+#left-navigation nav
+{
+        float:left;
+        font-family: Gotham_Light;
+		font-size:12px;
+}
+
+#left-navigation nav ul
+{
+        list-style:none;
+        padding-left:0;
+        width:180px;
+}
+
+#left-navigation nav ul li
+{
+	   width:180px;
+       min-height:20px;
+       line-height: 20px;
+       border-bottom:1px solid #cfcfcf;
+}
+
+#left-navigation nav ul li a
+{
+		text-decoration:none;
+        font-family: Gotham_Book;
+		font-size:12px;
+		color:#4e2b00;	
+        text-transform:uppercase;
+        transition: all .25s ease;
+}
+
+#left-navigation nav ul li a:hover
+{
+		font-family: Gotham_Medium;
+        color:#da6824;
+}
+
+#left-navigation nav ul li .current
+{
+		font-family: Gotham_Medium;
+        color:#da6824;
+}
+
+#left-navigation nav ul li .section
+{
+		font-family: Gotham_Medium;
+        color:#da6824;
+}
+
+#left-navigation nav ul ul
+{
+        list-style:none;
+        padding-left:15px;
+}
+
+#left-navigation nav ul ul li
+{
+	   width:165px;
+       min-height:20px;
+       line-height: 20px;
+       border-bottom:1px solid #cfcfcf;
+}
+
+#left-navigation nav ul ul li a
+{
+		text-decoration:none;
+        font-family: Gotham_Book;
+		font-size:12px;
+		color:#4e2b00;	
+		text-transform:capitalize;
+        transition: all .25s ease;
+}
+
+#left-navigation nav ul ul li a:hover
+{
+		font-family: Gotham_Bold;
+        color:#da6824;
+}
+
+#left-navigation nav ul ul li .current
+{
+		font-family: Gotham_Bold;
+        color:#da6824;
+}
+
+#left-navigation nav ul ul li .section
+{
+		font-family: Gotham_Bold;
+        color:#da6824;
+}
+
+#product-content-container {
+	width:100%;min-height:100px;float:left;
+}
+
+#product-title {
+	width:220px;min-height:10px;float:left;margin-left:40px;padding-bottom:10px;font-family: DidotLH_Italic;font-size:24px;color:#4e2b00;
+}
+
+#product-content {
+	width:220px;min-height:100px;float:left;margin-left:40px;
+}
+
+#image-area {
+	width:100%;height:430px;float:left;
+}
+
+#carousel-container {
+	width:100%;min-height:100px;float:left;
+}
+
+#carousel-text {
+	width:100%;min-height:20px;float:left;border-bottom:1px solid #cfcfcf;font-family:Gotham_Medium;font-size:10px;color:#666666;
+}
+
+#carousel {
+	width:100%;min-height:20px;float:left;margin-top:20px;
+}
+
+#prev-button-container {
+	width:40px;height:90px;line-height:90px;text-align:left;float:left;
+}
+
+.image_carousel {
+	width:590px;height:90px;float:left;
+}
+
+#next-button-container {
+	width:40px;height:90px;line-height:90px;text-align:right;float:left;
+}
+
+.product-name {
+	width:100%;font-family:Avenir_Heavy;font-size:13px;color:#666666;margin-top:30px;
+}
+
+.product-description {
+	width:100%;font-family:Avenir_Light;font-size:13px;color:#666666;
+}
+
+.product-list {
+	width:100%;float:left;margin-top:10px;
+}
+
+.product-list-box {
+	width:139px;min-height:100px;float:left;
+}
+
+.product-list-box .the-product {
+	width:110px;
+	margin-top:10px;
+        float:left;
+}
+
+.product-list-box .the-product a {
+	text-decoration:none;
+	font-family: Avenir_Heavy;
+	font-size:13px;
+	color:#da6824;
+	transition: all .25s ease;
+}
+
+.product-list-box .the-product a:hover
+{
+        color:#da6824;
+}
+
+.product-list-box ul {
+	padding-left:18px;
+	width:110px;
+	margin-top:0px;
+        float:left;
+}
+
+.product-list-box ul li {
+	width:110px;
+}
+
+.product-list-box ul li a {
+	text-decoration:none;
+    font-family: Avenir_light;
+	font-size:12px;
+	color:#666666;
+	transition: all .25s ease;
+}
+
+.product-list-box ul li a:hover
+{
+        color:#da6824;
+}
+
+.outlet-list-container {
+	width:100%;float:left;margin-top:10px;
+}
+
+.outlet-list {
+	width:160px;min-height:100px;margin-right:10px;float:left;
+}
+
+.outlet-name {
+	width:100%;font-family:Gotham_Bold;font-size:11px;color:#4e2b00;float:left;
+}
+
+.outlet-address {
+	width:100%;font-family:Gotham_Book;font-size:11px;color:#666666;float:left;
+}
+
+.outlet-address p {
+        margin-top:0px;
+}
+
+#info-container {
+	width:960px;min-height:140px;margin:0 auto;border-top:1px solid #cfcfcf;
+}
+
+.info-box {
+	width:320px;min-height:100px;margin-top:20px;float:left;
+}
+
+.info {
+	width:290px;margin:0 auto;
+}
+
+.info-image {
+	width:100px;height:90px;float:left;
+}
+
+.info-content-title {
+	width:180px;min-height:90px;float:left;margin-left:10px;
+}
+
+.info-content-title a {
+	text-decoration:none;font-family:Gotham_Book;font-size:16px;color:#4e2b00;text-transform:uppercase;
+}
+
+.info-content {
+	float:left;margin-top:10px;font-family:Gotham_Book;font-size:12px;color:#666666;
+}
+
+#footer {
+   bottom:0;
+   width:100%;
+   min-height:30px;   /* Height of the footer */
+   position:absolute;
+   background:#cccccc;
+   z-index:3;
+}
+
+#footer-content {
+	color:#666666;
+	width:960px;
+	margin:0 auto;
+	font-size:10px;
+	font-family:Lucida_Sans;
+}
+
+#footer-content a {
+	color:#4a4b4c;
+	font-size:10px;
+	font-family:Lucida_Sans;
+	text-decoration:none;
+}
+
+#foo2 a {
+	margin-right:10px;
+}
+
+#foo2 a img {
+	width:110px;height:110px;
+}
+
+a.prev, a.next {	
+	font-family: Gotham_Book; 
+	font-size:30px;
+	color:#666666;
+	text-decoration: none;
+}
+a.next.disabled {	color:#fff;  }
+a.prev.disabled {	color:#fff;   }
+
+@media only screen and (max-width : 960px)
+{
+	#wrapper {
+		width:960px
+	}
+
+	#footer {
+		width:960px
+	}
+}
+
+/** FONT **/
+
+@font-face {
+	font-family: Avenir_Light;
+	src: url('../font/AvenirLTStd-Light.otf') format('opentype');
+}
+
+@font-face {
+	font-family: Avenir_Heavy;
+	src: url('../font/AvenirLTStd-Heavy.otf') format('opentype');
+}
+
+@font-face {
+	font-family: Avenir_Medium;
+	src: url('../font/AvenirLTStd-Medium.otf') format('opentype');
+}
+
+
+@font-face {
+	font-family: Gotham_Book;
+	src: url('../font/Gotham-Book.otf') format('opentype');
+}
+
+@font-face {
+	font-family: Gotham_Book_Italic;
+	src: url('../font/Gotham-BookItalic.otf') format('opentype');
+}
+
+@font-face {
+	font-family: Gotham_Light;
+	src: url('../font/Gotham-Light.otf') format('opentype');
+}
+
+@font-face {
+	font-family: Gotham_Light_Italic;
+	src: url('../font/Gotham-LightItalic.otf') format('opentype');
+}
+
+@font-face {
+	font-family: Gotham_Bold;
+	src: url('../font/Gotham-Bold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: Gotham_Bold_Italic;
+	src: url('../font/Gotham-BoldItalic.otf') format('opentype');
+}
+
+@font-face {
+	font-family: Gotham_Medium;
+	src: url('../font/Gotham-Medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: Gotham_Medium_Italic;
+	src: url('../font/Gotham-MediumItalic.otf') format('opentype');
+}
+
+@font-face {
+	font-family: Lucida_Sans;
+	src: url('../font/lucida-sans.ttf') format('opentype');
+}
+
+@font-face {
+	font-family: DidotLH_Italic;
+	src: url('../font/didot_italic.ttf') format('opentype');
+}
